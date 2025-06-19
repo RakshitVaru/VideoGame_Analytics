@@ -34,6 +34,8 @@ KPIs:
 | Snowpark     | In-Snowflake session for Native App        |
 | Snowflake Connector | Uploading data from local script    |
 
+## Data Source: [Video Game Sales with Ratings (Kaggle)](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
+
 ## Folder Structure
 ```
 VideoGame_Analytics/
@@ -44,7 +46,7 @@ VideoGame_Analytics/
 │ └── data_cleanup.py # Data Cleanup (ETL)
 │ └── upload_cleaned_data.py # Script to Upload data in Snowflake Database
 ├── data/ 
-│ └── cleaned_game_sales.csv # Raw data -Source: [Video Game Sales with Ratings (Kaggle)](https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings)
+│ └── cleaned_game_sales.csv # Raw data -Source: Video Game Sales with Ratings (Kaggle) - https://www.kaggle.com/datasets/rush4ratio/video-game-sales-with-ratings
 ├── utils/
 │ └── snowflake_connector.py # Secure Snowflake connection
 ├── .gitignore
