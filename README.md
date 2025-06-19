@@ -1,4 +1,4 @@
-# Video Games Analytics Dashboard
+# Video Games Sales Dashboard
 
 This project is an interactive data analytics dashboard built using **Python**, **Streamlit**, and **Snowflake**. 
 It visualizes real-world video game sales data across different platforms, genres, and regions — helping uncover patterns in critic/user scores and global revenue.
