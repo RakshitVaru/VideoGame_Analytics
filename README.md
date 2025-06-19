@@ -36,7 +36,7 @@ KPIs:
 
 ## Folder Structure
 ```
-video-games-analytics/
+VideoGame_Analytics/
 ├── app/ 
 │ └── dashboard.py # Streamlit dashboard (local)
 │ └── snowflake.py # Streamlit dashboard (Native in Snowflake)
