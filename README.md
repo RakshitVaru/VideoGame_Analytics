@@ -35,7 +35,7 @@ KPIs:
 | Snowflake Connector | Uploading data from local script    |
 
 ## Folder Structure
-
+```
 video-games-analytics/
 ├── app/ 
 │ └── dashboard.py # Streamlit dashboard (local)
@@ -50,7 +50,7 @@ video-games-analytics/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
+```
 ## Run Locally
 
 1. Clone the repo
