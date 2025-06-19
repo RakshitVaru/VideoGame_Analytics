@@ -54,18 +54,18 @@ video-games-analytics/
 ## Run Locally
 
 1. Clone the repo
-
+```
 git clone https://github.com/RakshitVaru/VideoGame_Analytics.git
 cd VideoGame_Analytics
-
+```
 2. Create Virtual Environment and Install Requirements
-
+```
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
-
+```
 3. Upate snowflake_connector.py with your details and save
-
+```
 SNOWFLAKE_USER=<your_user>
 SNOWFLAKE_PASSWORD=<your_password>
 SNOWFLAKE_ACCOUNT=<your_account_id>
@@ -73,14 +73,17 @@ SNOWFLAKE_WAREHOUSE=<your_warehouse>
 SNOWFLAKE_DATABASE=<your_db>
 SNOWFLAKE_SCHEMA=<your_schema>
 SNOWFLAKE_ROLE=<your_role>
-
+```
 4. Upload your data
 
-Either upload it using below command or by uploading the file directly in Snowflake [Retail FastAPI Docs](assets/FastAPI_Docs_Overview.png)
+Either upload it using below command or by uploading the file directly in Snowflake 
+![DataLoad Alternative](assets/load_data.png)
+
+```
 python scripts/upload_cleaned_data.py
-
+```
 5. Launch Streamlit
-
+```
 You can run Steamlit either from Local or Native -
 
 Local run command - streamlit run app/dashboard.py
@@ -88,12 +91,12 @@ Native run details-
     -- Copy app/streamlit_app.py to your Streamlit section of Snowflake.
     -- Make sure to include all the dependencies in the package section of Streamlit Apps
     -- Click Run, if not automatically started.
-
+```
 ## Screenshots
-- **Snowflake Database Configuration and DataLoad Native Alternative**
+- **Snowflake Database Configuration and DataLoad Native Alternative (Filter on Year=2016)**
 
 ![Configuration](assets/DB_Configuration.png)
-![DataLoad Alternative](assets/load_data.png)
+
 
 - **Steamilt Dashboard hosted locally**
 ![Steamlit Dashboard Local - Filter on Year=2016](assets/Local_Streamlit_1_2016.png)
